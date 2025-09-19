@@ -1,0 +1,79 @@
+.services-section {
+  background: linear-gradient(120deg, #f7fbfa 60%, #eaf6f3 100%);
+  padding: 40px 0 32px 0;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+  color: #174d4d;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 24px;
+  padding: 32px 24px;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 18px;
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #174d4d;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.apply-btn {
+  background: #fff;
+  color: #174d4d;
+  border: 2px solid #174d4d;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.apply-btn:hover {
+  background: #174d4d;
+  color: #fff;
+}
+
+.view-more-btn {
+  background: #174d4d;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 32px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 12px;
+}
