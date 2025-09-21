@@ -27,8 +27,3 @@ Thumbs.db
 
 
 
-DB_USER=postgres
-DB_HOST=localhost
-DB_NAME=loan_app
-DB_PASSWORD=Kalpendra@1234??
-DB_PORT=5432
